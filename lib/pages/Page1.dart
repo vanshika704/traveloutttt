@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/HALLSTATT AUSTRIA.jpeg"),
+            image: AssetImage("assets/pexels-eberhardgross-1624496.jpg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -28,27 +28,29 @@ class _MyHomePageState extends State<MyHomePage> {
                 "Traveloutttt",
                 style: GoogleFonts.poppins(
                   textStyle: const TextStyle(
-                    color: Color.fromARGB(255, 16, 33, 70),
-                    fontSize: 70,
+                    color: Color.fromARGB(255, 255, 255, 255),
+                    fontSize: 40,
                   ),
                 ),
               ),
-              // Image.asset(
-              //   "assets/genielogo.png",
-              //   height: 300,
-              //   width: 300,
-              // ),
+              SizedBox(height: 80),
+              Image.asset(
+                "assets/Untitled design (6) 1.png",
+                height: 200,
+                width: 300,
+              ),
+              SizedBox(height: 120),
               Text(
-                "Take a break and travelouttt",
+                "Take a break and travelouttt ",
                 style: GoogleFonts.poppins(
                   textStyle: const TextStyle(
-                    color: Color.fromARGB(255, 16, 33, 70),
+                    color: Color.fromARGB(255, 255, 255, 255),
                     fontSize: 20,
                   ),
                 ),
               ),
               const SizedBox(
-                height: 50,
+                height: 20,
               ),
               SizedBox(
                 height: 50,
